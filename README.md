@@ -5,8 +5,7 @@ This repo is made to be an interactive portfolio of sorts.  It's an example of h
 ##Setup a local devlopment environment
 To set up the development environment use these steps.
 1. Run `npm install`.
-2. Run `npm run watch`. This will update localhost with your new changes when you save.
-3. Run `npm start`. This will begin hosting the app on localhost:8080.  A new port can be specified by modifying the `npm start` command in the `package.json` file.
+2. Run `npm start`. This will begin hosting the app on localhost:8080 and begin to watch your source files (/src/*) for changes at the same time.  A new port can be specified by modifying the `npm start` command in the `package.json` file.
 
 ##Planned features
 Some planned features to the app.

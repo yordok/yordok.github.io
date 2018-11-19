@@ -9,8 +9,9 @@
   "scripts": {
     "test": "npm test",
     "babel": "browserify src/main.js -o build/main.bundle.js -t [ babelify --presets [ es2015 ] ]",
-    "start": "http-server",
-    "watch": "npm-watch"
+    "host": "http-server",
+    "watch": "npm-watch",
+    "start": "npm run host & npm run watch"
   },
   "repository": {
     "type": "git",
